@@ -1,5 +1,5 @@
 package com.turkcell.TurkcellCRM.customerService.dtos.request.update;
-import com.turkcell.Gender;
+import com.turkcell.TurkcellCRM.commonPackage.Gender;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,5 +1,5 @@
 package com.turkcell.TurkcellCRM.customerService.dtos.request.create;
-import com.turkcell.Gender;
+import com.turkcell.TurkcellCRM.commonPackage.Gender;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;

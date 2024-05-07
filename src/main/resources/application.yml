@@ -3,10 +3,12 @@ spring:
   application:
     name: customerService
   config:
-    import: configserver:http://localhost:8051/
+    import: configserver:http://localhost:8052/
   cloud:
     config:
       profile: dev
+#      kafka: producer: bootstrap-servers: localhost:9092 key-serializer: org.apache.kafka.common.serialization.StringSerializer value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
 #eureka:
 #  client:
 #    fetchRegistry: true

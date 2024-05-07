@@ -1,6 +1,6 @@
 package com.turkcell.TurkcellCRM.customerService.entities.concretes;
-import com.turkcell.TurkcellCRM.customerService.core.entities.BaseEntity;
-import com.turkcell.Gender;
+import com.turkcell.TurkcellCRM.commonPackage.BaseEntity;
+import com.turkcell.TurkcellCRM.customerService.entities.enums.Gender;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;

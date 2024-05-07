@@ -1,6 +1,6 @@
 package com.turkcell.TurkcellCRM.customerService.kafka.producers;
 
-import com.turkcell.CustomerCreatedEvent;
+import com.turkcell.TurkcellCRM.commonPackage.CustomerCreatedEvent;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.config.TopicBuilder;
 import org.springframework.kafka.core.KafkaTemplate;

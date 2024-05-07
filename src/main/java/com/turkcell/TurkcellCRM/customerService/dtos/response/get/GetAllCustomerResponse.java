@@ -1,7 +1,7 @@
 package com.turkcell.TurkcellCRM.customerService.dtos.response.get;
 
 import java.time.LocalDateTime;
-import com.turkcell.Gender;
+import com.turkcell.TurkcellCRM.commonPackage.Gender;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

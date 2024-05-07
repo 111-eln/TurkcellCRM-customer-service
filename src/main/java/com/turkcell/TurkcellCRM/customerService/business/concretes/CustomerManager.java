@@ -9,7 +9,7 @@ import com.turkcell.TurkcellCRM.customerService.dataAccess.CustomerRepository;
 import com.turkcell.TurkcellCRM.customerService.dtos.request.create.CreateCustomerRequest;
 import com.turkcell.TurkcellCRM.customerService.dtos.request.update.UpdateCustomerRequest;
 import com.turkcell.TurkcellCRM.customerService.dtos.response.create.CreateCustomerResponse;
-import com.turkcell.CustomerCreatedEvent;
+import com.turkcell.TurkcellCRM.commonPackage.CustomerCreatedEvent;
 import com.turkcell.TurkcellCRM.customerService.dtos.response.get.GetAllCustomerResponse;
 import com.turkcell.TurkcellCRM.customerService.dtos.response.get.GetCustomerResponse;
 import com.turkcell.TurkcellCRM.customerService.dtos.response.update.UpdateCustomerResponse;
