@@ -1,5 +1,5 @@
 package com.turkcell.TurkcellCRM.customerService.entities.concretes;
-import com.turkcell.TurkcellCRM.customerService.core.entities.BaseEntity;
+import com.turkcell.TurkcellCRM.commonPackage.BaseEntity;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
